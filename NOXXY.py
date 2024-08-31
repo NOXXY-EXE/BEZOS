@@ -1321,7 +1321,7 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m HRIDOY Programer Tool Is Free But You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m NOXXY Programer Tool Is Free But You Need Get Approved First\033[1;37m\n")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
