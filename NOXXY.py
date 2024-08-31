@@ -432,16 +432,16 @@ class Main:
 		print(" [5] 2010-15 Cloning")
 		print(" [6] Press 'E' & Maa chut jayegi")
 		print(" [E] Exit Programming\n")
-		HRIDOY =input(" Choose : ")
-		if HRIDOY in ["1", "01"]:
+		NOXXY =input(" Choose : ")
+		if NOXXY in ["1", "01"]:
 			File()
-		if HRIDOY in ["2", "02"]:
+		if NOXXY in ["2", "02"]:
 			Public()
-		if HRIDOY in ["3", "03"]:
+		if NOXXY in ["3", "03"]:
 			os.system("python Dump.py")
-		if HRIDOY in ["4", "04"]:
+		if NOXXY in ["4", "04"]:
 			self.old()
-		if HRIDOY in ["5", "05"]:
+		if NOXXY in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
